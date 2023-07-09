@@ -5,7 +5,7 @@ pipeline {
         stage('Pull from repository') {
             steps {
                 echo 'Pulling from repository...'
-                git 'https://github.com/yourusername/yourrepository.git'
+                git 'https://github.com/Skpandey108/springbootjenkinspipeline.git'
             }
         }
 
