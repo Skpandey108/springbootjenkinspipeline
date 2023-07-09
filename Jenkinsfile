@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        jdk 'JDK 17' // use the name you provided when adding the JDK
+        jdk 'jdk-17' // use the name you provided when adding the JDK
     }
     stages {
         stage('Pull from repository') {
