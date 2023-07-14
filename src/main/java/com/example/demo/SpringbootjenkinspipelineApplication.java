@@ -8,6 +8,7 @@ public class SpringbootjenkinspipelineApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootjenkinspipelineApplication.class, args);
+		System.out.println("Hi Maverik")
 	}
 
 }
